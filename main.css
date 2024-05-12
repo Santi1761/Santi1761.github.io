@@ -55,6 +55,12 @@ body {
     text-align: center;
 }
 
+.link {
+    color: #e20048;
+    text-decoration: bold;
+    text-shadow: green;
+}
+
 .card .back {
     transform: perspective(600px) rotateY(180deg);
     background: rgb(3, 35, 54);
