@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <button id="backButton" onclick="location.href='../index.html';">Volver al inicio</button>
+    </header>
+
+    <div class="background-pattern"></div>
+
+    <div class="ful-img" id="fulImgBox">
+        <img src="1.jpg" id="fulImg" alt="">
+        <video src="Video2.mp4" id="fulVideo" controls></video>
+        <span onclick="closeImg()">X</span>
+    </div>
+
+    <h1><span>Galeria de la hermosura</span></h1>
+
+    <div class="img-gallery">
+        <img src="1.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="3.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="4.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="6.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="Foto1.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="Foto2.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="Foto3.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="Foto4.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="Foto5.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="Foto6.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="Foto7.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="Foto8.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="Foto9.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="Foto10.jpg" onclick="openFulImg(this.src)" alt="">
+        <video src="Video2.mp4" onclick="openFulVideo(this.src)" controls></video>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
